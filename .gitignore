@@ -1,0 +1,5 @@
+# Ignore XAMPP-related files
+/xampp/
+/img/
+/dashboard/
+/webalizer/
