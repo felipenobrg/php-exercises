@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Investimentos</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th><strong>Tipo</strong></th>
+      </tr>
+      <tr>
+        <th><strong>Descrição</strong></th>
+      </tr>
+      <tr>
+        <th><strong>Rendimento Mensal</strong></th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Poupança</td>
+        <td>3%</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Fundos de Renda Fixa</td>
+        <td>4%</td>
+      </tr>
+    </table>
+    <br />
+
+    <form action="process.php" method="post">
+      <label for="">Digite o tipo de investimento: </label>
+      <br />
+      <label for="savings">Poupança</label>
+      <input name="savings" type="radio" />
+      <br />
+      <label for="fixed_income_funds">Fundos de Renda Fixa</label>
+      <input name="fixed_income_funds" type="radio" />
+      <br />
+      <label for="investment_value">Digite o valor de investimento: </label>
+      <br />
+      <input name="investment_value" type="number" placeholder="Digite aqui" />
+      <br />
+      <input type="submit" placeholder="enviar">
+    </form>
+  </body>
+</html>

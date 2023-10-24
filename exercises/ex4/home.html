@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <form action="process.php" method="post">
+      <label for="first_number">Digite o primeiro número: </label>
+      <br />
+      <input type="number" name="first_number" />
+      <br />
+      <label for="second_number">Digite o segundo número: </label>
+      <br />
+      <input type="number" name="second_number" />
+      <br />
+
+      <label for="addition">Adição</label>
+      <input type="radio" name="addition" />
+      <br />
+
+      <label for="subtraction">Subtração</label>
+      <input type="radio" name="subtraction" />
+      <br />
+
+      <label for="multiplication">Multiplicação</label>
+      <input type="radio" name="multiplication" />
+      <br />
+
+      <label for="division">Divisão</label>
+      <input type="radio" name="division" />
+      <br />
+
+      <input type="submit" placeholder="Calcular" />
+    </form>
+  </body>
+</html>
