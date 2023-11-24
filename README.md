@@ -26,7 +26,4 @@ Database Connectivity (optional)
 Contribution Guidelines
 Contributions are encouraged! If you have additional exercises, improvements, or corrections, feel free to submit a pull request.
 
-License
-This project is licensed under the MIT License, allowing for collaboration and personal use.
-
 Happy coding! 🚀
